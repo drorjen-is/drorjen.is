@@ -13,6 +13,7 @@ const Background = (props: IBackgroundProps) => (
       ${props.fullscreen ? 'min-h-screen' : ''}
       ${props.hidden ? 'overflow-hidden' : ''}
     `}
+    style={{ backgroundColor: '#fbfbfb' }}
   >
     {props.children}
   </div>

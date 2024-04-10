@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Background } from '../layouts/background';
 
 const Hero = () => (
-  <Background color="white">
+  <Background color="#fbfbfb">
     <div className="divide-y-2 divide-black">
       <div className="flex flex-col items-center justify-center gap-4 h-screen">
         {/* <Image
